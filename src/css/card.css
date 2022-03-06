@@ -1,0 +1,28 @@
+.card_list__container {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+  grid-gap: 1rem;
+  max-width: 100vw;
+  width: 120ch;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.card__container {
+  background-color: #ffffff;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+
+.card__title {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+}

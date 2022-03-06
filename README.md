@@ -1,0 +1,5 @@
+## Some notes
+
+I spent more time on this than I'd like to admit, total of around 6-7 hours. Mostly down to unfamiliarity with the tech - in my previous workplace most frontend JS was written in CoffeeScript, so there were a few hiccups here and there related to syntax and language capabilities. The limitation of not using any other libraries also made it more fun. I did however at least use SASS.
+
+If I had to re-create this using RoR it'd be both faster, more complete and prettier (code base wise, not design). Due to inexperience with given framework I also didn't really know how to structure folders and files. I'm sure that won't be an issue once I see how it's done in practice using React. I'm of course assuming here that there is a common practice in the industry, because _convention over configuration_ runs very strong in Ruby on Rails and pretty much any two good production systems will be structured very similarly.

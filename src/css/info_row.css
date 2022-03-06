@@ -1,0 +1,17 @@
+.info_row__row {
+  display: flex;
+}
+
+.info_row__row:hover {
+  background-color: #eeeeee;
+}
+
+.info_row__title {
+  min-width: 25%;
+  font-size: 1.25rem;
+}
+
+.info_row__value {
+  width: 100%;
+}
+
